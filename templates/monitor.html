@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>FLASK / HTML</title>
+  </head>
+  <body>
+    <h1> temperature now is {{temperature}}°C </h1>
+    <h1> humidity now is {{humidity}}% </h1>
+    <form action="/monitor.html" method="post">
+    	<input type="submit" name="start" value="start" />
+    </form>
+  <script language="JavaScript">
+	function myrefresh()
+	{	
+	window.location.reload();
+	}
+	setTimeout('myrefresh()',5000); //指定5秒刷新一次
+</script>  
+</body>
+</html>
