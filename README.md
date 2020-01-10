@@ -1,7 +1,7 @@
 # IOT_Project:氣象偵測風扇
 
 ![image](https://github.com/eric6311/weather_fan/blob/master/P_20200107_150546.jpg)
-
+Demo影片連結:https://www.youtube.com/watch?v=QfSV7oaN_Ew
 由溫溼度感應器偵測溫度與濕度，並顯示於網頁上。當溫溼度超過一定範圍時，紅外線感應器開始運作，偵測到人即開始運轉。
 
 Input: PIR sensor, 溫溼度感應器
